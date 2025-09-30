@@ -1,0 +1,40 @@
+{
+  "name": "cosmos-tx-parser",
+  "version": "0.0.1",
+  "description": "Lightweight transaction parser for Cosmos SDK chains. Supports decoding and extracting useful data from MsgSend and MsgMultiSend messages (with potential support for more message types in the future).",
+  "homepage": "https://github.com/ricco381/cosmos-tx-parser#readme",
+  "bugs": {
+    "url": "https://github.com/ricco381/cosmos-tx-parser/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricco381/cosmos-tx-parser.git"
+  },
+  "keywords": [
+    "cosmos",
+    "tendermint",
+    "cometbft",
+    "transaction",
+    "parser",
+    "msgsend",
+    "msgmultisend",
+    "protobuf",
+    "bank"
+  ],
+  "license": "MIT",
+  "author": "ricco381",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "cosmjs-types": "^0.10.1"
+  },
+  "devDependencies": {
+    "typescript": "5.6.2",
+    "@types/ws": "^8.18.1"
+  }
+}
