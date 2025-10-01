@@ -1,5 +1,5 @@
 {
-  "name": "cosmos-tx-parser",
+  "name": "@ricco381/cosmos-tx-parser",
   "version": "0.0.1",
   "description": "Lightweight transaction parser for Cosmos SDK chains. Supports decoding and extracting useful data from MsgSend and MsgMultiSend messages (with potential support for more message types in the future).",
   "homepage": "https://github.com/ricco381/cosmos-tx-parser#readme",
